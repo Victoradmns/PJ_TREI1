@@ -22,30 +22,30 @@ document.addEventListener("DOMContentLoaded", () => {
 const produtos = [
     {
       id: 1,
-      nome: "Headphone X200",
-      preco: "R$199,90",
-      descricao: "Fone de ouvido com cancelamento de ruído e áudio 3D.",
+      nome: "Computador X200",
+      preco: "R$699,90",
+      descricao: "Computador com 4gb de RAM DDR3 SSD 120gb e intel i3",
       imagem: "imagens/prod1.png"
     },
     {
       id: 2,
-      nome: "Smartwatch FitPro",
+      nome: "calças Jeans FitPro",
       preco: "R$349,90",
       descricao: "Monitoramento de saúde e conexão com seu smartphone.",
       imagem: "imagens/prod2.png"
     },
     {
       id: 3,
-      nome: "Câmera 4K Action",
+      nome: "Pulseira 4K Action",
       preco: "R$499,00",
       descricao: "Ideal para aventuras com gravação em 4K e resistência à água.",
       imagem: "imagens/prod3.png"
     },
     {
       id: 4,
-      nome: "Notebook Slim 14",
+      nome: "Placa Protoboard Slim 14",
       preco: "R$2.399,00",
-      descricao: "Leve e potente, com SSD de 512GB e 16GB RAM.",
+      descricao: "Leve e POTENTE, pronta para qualquer conexão.",
       imagem: "imagens/prod4.png"
     }
 ];
