@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    background-color: rgb(71, 139, 185);
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav .logo {
+    font-size: 24px;
+    color: #FFD580;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#logoimg {
+    height: 100px;
+    width: 100px;
+}
+
+#logotxt {
+    margin-left: 20px;
+}
+
+#lupa {
+    height: 40px;
+    width: 40px;
+}
+.search-bar {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+}
+
+#pesquisa::placeholder {
+    color: #FFD580;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    background-color: #f1f1f1;
+    padding: 10px 0;
+}
+
+.tab {
+    margin: 0 15px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.tab:hover {
+    background-color: #ddd;
+}
+
+.content {
+    padding: 20px;
+    background-color: #e0e0e0;
+    min-height: 500px;
+    text-align: center;
+}
+
+.catalog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main-image {
+    width: 500px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.selecionadorImg {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.thumbnail:hover {
+    border: 2px solid #FFD580;
+}
+
+.thumbnail:focus {
+    outline: none;
+    border: none;
+}
+
+.thumbnail:active {
+    outline: none;
+    border: none;
+}
+
+.thumbnail {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: border 0.2s;
+    outline: none;
+    border: none;
+}
+
+.thumb-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.desc {
+  margin-top: 5px;
+  font-size: 14px;
+  text-align: center;
+}
+
+
+.selecionadorImg {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#main-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  border: none
+}
+
+.tab.active {
+    background-color: rgb(71, 139, 185);
+    color: white;
+}
+
+.textoJustificado {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 1.6;
+    padding: 20px;
+}
